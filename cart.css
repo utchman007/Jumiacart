@@ -1,0 +1,262 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5
+}
+
+.container{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 100px auto;
+    padding: 30px;
+    background: #fff;
+}
+
+.cont1 {
+    /* border: 5px solid blue; */
+    padding: 10px;
+}
+
+.cont2 {
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+.sec1 {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 23px;
+    width: 80%;
+    line-height: 30px;
+    font-weight: 400;
+    /* letter-spacing: .3px; */
+}
+
+.fa-regular{
+    font-size: 25px;
+    margin-top: -35px;
+    color: #f68b1e;
+}
+
+#brand{
+    /* border: 2px solid red; */
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+span {
+    color: rgb(10, 10, 134);
+}
+
+.sec2 {
+    display: flex;
+    margin: 5px auto;
+    /* border: 2px solid red; */
+}
+
+.fa-star{
+    color: #f68b1e;
+    margin: 2px;
+}
+
+#verified {
+    color: rgb(10, 10, 134);
+    font-weight: 400;
+    margin: 0 5px;
+}
+
+#free {
+    /* border: 3px solid red; */
+    width: 20%;
+    padding: 1px;
+    background-color: #f68b1e;
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0;
+}
+
+hr{
+    width: 98%;
+    margin: 5px auto;
+    opacity: 0.5;
+}
+
+.price{
+    /* border: 2px solid red; */
+    margin: 12px 0 2px;
+    font-size: 30px;
+}
+
+.sec3{
+    /* border: 2px solid ; */
+    display: flex;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.strike {
+    text-decoration: line-through;
+    margin: 2px 0;
+    padding: 3px;
+}
+
+.discount{
+    margin: 2px 15px;
+    background-color: #feefde;
+    color: #f68b1e;
+    padding: 3px;
+}
+
+.shipping{
+    /* border: 2px solid red; */
+    margin: 10px 0;
+    letter-spacing: .7px;
+    font-size: 15px;
+}
+
+.btn{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #f68b1e;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.fa-cart-plus{
+    font-size: 25px;
+    color: #fff;
+    /* border: 2px solid red; */
+}
+
+.add {
+    /* border: 2px solid red; */
+    margin-left: 230px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+#promo{
+    /* border: 2px solid; */
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.sec4 {
+    display: flex;
+}
+
+.fa-circle-star{
+    color: #f68b1e;
+    font-size: 50px;
+    /* border: 2px solid; */
+}
+
+.sec4 p{
+    margin-left: 10px;
+    color: rgb(10, 10, 134);
+}
+
+.sec5{
+    display: flex;
+    margin: 10px 0;
+}
+
+.fa-shield-halved{
+    color: rgb(10, 10, 134);
+    font-size: 20px;
+}
+
+.borrow{
+    margin-left: 10px;
+    color: rgb(10, 10, 134);
+}
+
+.cont3{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.delivery{
+    font-size: 20px;
+    font-weight: 500;
+    /* padding: 3px 0; */
+    margin: 5px 0;
+}
+
+.jumia{
+    width: 40%;
+    margin: 5px 0;
+}
+
+.free{
+    /* border: 2px solid; */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+select{
+    display: block;
+    width: 100%;
+    padding: 20px ;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.sec6, .sec7{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.sec6 p {
+    margin-top: 5px;
+}
+
+.fa-truck{
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 4px;
+    margin: 10px 10px 35px 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.pickup{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0;
+}
